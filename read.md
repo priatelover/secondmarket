@@ -1,0 +1,9 @@
+<servlet>
+        <servlet-name>indexGoods</servlet-name>
+        <servlet-class>cn.gok.secondMarket.servlet.IndexServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>indexGoods</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
